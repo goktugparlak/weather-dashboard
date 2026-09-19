@@ -120,5 +120,4 @@ Optional browser checks and screenshot generation are documented in [docs/BROWSE
 - The application depends on OpenWeather access and quota. There is no caching, user authentication, or application-level rate limiting.
 - Intended as a local portfolio/demo application. Before public hosting, configure HTTPS, quota controls/rate limiting, and deployment-specific operations. `--reload` is for local development.
 - Provider URLs and raw exceptions are not logged by the application because query parameters contain the API key. Do not enable verbose HTTP client logging with a real key.
-
-For publishing instructions, see [docs/GITHUB_SETUP.md](docs/GITHUB_SETUP.md). For architecture and interview preparation, see [docs/INTERVIEW_GUIDE.md](docs/INTERVIEW_GUIDE.md).
+(docs/INTERVIEW_GUIDE.md).
