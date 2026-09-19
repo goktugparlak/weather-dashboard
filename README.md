@@ -29,7 +29,7 @@ Python 3.12, FastAPI, Pydantic, HTTPX, python-dotenv, Uvicorn, HTML/CSS, JavaScr
 | `frontend/` | Search form, rendering, and styles |
 | `tests/test_weather_api.py` | API/service tests with the external HTTP transport mocked |
 | `.github/workflows/tests.yml` | Runs Python and frontend logic tests on pushes and pull requests |
-| `docs/` | Browser checks, setup/publishing guide, interview notes |
+| `docs/` | Browser testing instructions, validation results, and screenshot |
 
 The browser requests `/weather?city=Torino,IT`. FastAPI validates the city, awaits OpenWeather through a shared HTTPX client, validates the provider data, and returns the public response. The browser inserts returned text using `textContent`.
 
