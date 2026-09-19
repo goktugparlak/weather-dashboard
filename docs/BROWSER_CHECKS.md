@@ -1,6 +1,6 @@
 # Optional browser checks
 
-These checks exercise the real page and JavaScript in Chromium. Browser weather requests are intercepted and receive fixture responses; no API key or OpenWeather access is needed. The generated screenshot uses the same fixture, not live data. A screenshot is not bundled because Chromium installation was unavailable in the preparation environment. The browser script has not been executed there.
+These checks exercise the real page and JavaScript in Chromium. Browser weather requests are intercepted and receive fixture responses; no API key or OpenWeather access is needed. The generated screenshot uses the same fixture, not live data.
 
 Install the optional dependencies and browser (Windows PowerShell):
 
