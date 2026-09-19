@@ -2,6 +2,10 @@
 
 A small full-stack application for searching current weather by city. A FastAPI backend calls OpenWeather, validates the response, and returns a compact JSON payload to a vanilla JavaScript frontend.
 
+![Weather Dashboard](docs/screenshot.png)
+
+*Dashboard preview using sample weather data.*
+
 ## Features
 
 - City search, including Unicode names and optional country codes such as `Torino,IT`.
